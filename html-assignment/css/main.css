@@ -1,6 +1,40 @@
 /*CSS comment */
 body {
     background-color: cornsilk;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font: size 18px; 
 }
+
+header, footer {
+    background-color:mistyrose;
+}
+
+.site-title {
+    color:deeppink;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px  black;
+}
+
+ul {
+    list-style-type: square;
+} 
+
+li:nth-child(odd) {
+    background-color:honeydew;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color:gold;
+    border: 2px solid hotpink;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: red;
+    background-color: gold ;
+    border: 2px solid hotpink;
+}
+
