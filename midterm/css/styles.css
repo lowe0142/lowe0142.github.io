@@ -1,6 +1,7 @@
 html {
     background-color:#aad4cf
 }
+/* Verify secondary color */
 body {
     background-color:azure;
     width: 1000px;
@@ -9,6 +10,7 @@ body {
     font-family:sans-serif
     }
 
+/* Float smaller image*/
 .img-starfish{
     width: 180px;
     float: left;
@@ -16,19 +18,19 @@ body {
     padding-top: 0px;
     padding-bottom: 20px;
 }
-
+/* adjust display*/
 .nav-home-container {
     width: 30%;
     display: inline-block;
 }
-
+/* adjust display*/
 .nav-story-container {
     width: 30%;
     display: inline-block;
     border-left: 1px solid black;
     border-right: 1px solid black;
 }
-
+/* adjust display*/
 .nav-contact-container {
     width: 30%;
     display: inline-block;
@@ -56,7 +58,7 @@ body {
 text-align: center;
 position: relative;
 }
-
+/* Ensure font is white */
 h1 {
     position: absolute;
     bottom: 50px;
@@ -93,7 +95,7 @@ ul {
     margin: 0px;
     box-sizing:border-box
 }
-
+/* Adjust button color*/
 button{
     padding: 5px;
     background-color: azure;
@@ -129,6 +131,8 @@ button{
 .questionnaire {
     margin-bottom: 10px;
 }
+
+/* Wider image of Starfish */
 .img-banner {
     width: 100%;
 }
