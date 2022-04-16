@@ -9,94 +9,108 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-<!---Logo Image-->
-    <div class="container">
-        <img class="logo.png" src="images/logo.png" alt="logo">
-    </div>
 <!--- Creates top navigation bar as well as search bar element-->
     <section class="topnav">
-        <div class="nav-home-container"><a href="#home" class="nav-home">Home</a></div>
-        <div class="nav-story-container"><a href="#aboutus" class="nav-aboutus">About Us</a></div>
-        <div class="nav-contact-container"><a href="#services" class="nav-services">Services</a></div>
-        <div class="nav-contact-container"><a href="#team" class="nav-team">Team</a></div>
-        <div class="nav-contact-container"><a href="#contact" class="nav-contact">Contact</a></div>
-    </section>
-    <section class="search-btn">
-        <div class="search">
-            <input type="text" class="input" placeholder="Search">
-            <i class="fa-solid fa-magnifying-glass"></i>
+        <div class="background-item">
+            <div class="container">
+                <img class="logo" src="images/logo.png" alt="logo">
+            </div>
+            <ul class="nav-item-home">
+                <li><a href="#home" class="nav-home">Home</a></li>
+            </ul>
         </div>
+        <ul class="nav-items">
+            <li><a href="#aboutus" class="nav-aboutus">About Us</a></li>
+            <li><a href="#services" class="nav-services">Services</a></li>
+            <li><a href="#team" class="nav-team">Team</a></li>
+            <li class="list-contact"><a href="#contact" class="nav-contact">Contact</a></li>
+        </ul>
     </section>
-    
+    <div class="search-btn">
+        <input type="text" class="input" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
 <!---Creates Welcome Home Page -->
     <div class="welcome">
-        <h1>Welcome To Star Media</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod in porro voluptatum explicabo dolor quis sit nobis nihil distinctio, beatae fuga sint repudiandae quae reiciendis dolores, ex dolorum ad autem?</p>
-        <img class="main-banner.jpg" src="images/main-banner.jpg" alt="banner">
+        <h1 class="welcome-title">Welcome To Three Star Media</h1>
+        <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod in porro voluptatum explicabo dolor quis sit nobis nihil distinctio, beatae fuga sint repudiandae quae reiciendis dolores, ex dolorum ad autem?</p>
+    </div>
+    <div class="main">
+        <img class="main-banner" src="images/main-banner.jpg" alt="banner">
     </div>
 <!--Establishes Connect with us button-->
     <div class="connectbutt">
         <button type="button">Connect with us</button>
     </div>
 <!-- Creates About Us content -->
-    <div class="about">
-        <img class="about-us.jpg" src="images/about-us.jpg" alt="table">
-        <h1>About us</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ab suscipit quod, eaque fugiat nostrum. Voluptas optio molestias error ad cupiditate, placeat praesentium qui quidem veniam. Velit, accusamus vero. Dolorum.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ab suscipit quod, eaque fugiat nostrum. Voluptas optio molestias error ad cupiditate, placeat praesentium qui quidem veniam. Velit, accusamus vero. Dolorum.</p>
-    </div>
+    <section class="about">
+        <div class="about-img">
+            <img class="about-us" src="images/about-us.jpg" alt="table">
+        </div>
+        <h1 class="about-title">About us</h1>
+        <p class="p2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ab suscipit quod, eaque fugiat nostrum. Voluptas optio molestias error ad cupiditate, placeat praesentium qui quidem veniam. Velit, accusamus vero. Dolorum.</p>
+        <p class="p3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ab suscipit quod, eaque fugiat nostrum. Voluptas optio molestias error ad cupiditate, placeat praesentium qui quidem veniam. Velit, accusamus vero. Dolorum.</p>
+    </section>
 <!--Creates layout for Services grid-->
-    <section class=services">
-        <h1>Our Services</h1>
-            <div class="digitalplan">
-                <img class="digital.jpg" src="images/digital.jpg" alt="phone">
-                <h2>Digital Transormation</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ab suscipit quod, eaque fugiat nostrum. Voluptas optio molestias error ad cupiditate, placeat praesentium qui quidem veniam. Velit, accusamus vero. Dolorum.</p>
-                <button type="button">Digital Plans</button>  
+    <h1 class="services-title">Our Services</h1>
+    <section class="services">
+            <div class="digital-img">
+                <img class="digital" src="images/digital.jpg" alt="phone">
             </div> 
-            <div class="marketing">
-                <img class="marketing.jpg" src="images/marketing.jpg" alt="laptop">
-                <h2>Marketing</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, ipsam tempore quasi fugit ipsa delectus nesciunt modi architecto vel ipsum error necessitatibus dolor est fuga aut, quisquam, sed repellendus?</p>
-                <button type="button">Marketing Plans</button> 
-            </div>
-            <div class="video">
-                <img class="video.jpg" src="images/video.jpg" alt="video">
-                <h2>Video Production</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, ipsam tempore quasi fugit ipsa delectus nesciunt modi architecto vel ipsum error necessitatibus dolor est fuga aut, quisquam, sed repellendus?</p>
-                <button type="button">Video Plans</button> 
-            </div>
-            <div class="webdev">
-                <img class="web.jpg" src="images/web.jpg" alt="web">
-                <h2>Web Development</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, ipsam tempore quasi fugit ipsa delectus nesciunt modi architecto vel ipsum error necessitatibus dolor est fuga aut, quisquam, sed repellendus?</p>
-                <button type="button">Web Plans </button> 
-            </div>
-            <div class="print">
-                <img class="print.jpg" src="images/print.jpg" alt="print">
-                <h2>Print</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, ipsam tempore quasi fugit ipsa delectus nesciunt modi architecto vel ipsum error necessitatibus dolor est fuga aut, quisquam, sed repellendus?</p>
-                <button type="button">Print plans</button> 
-            </div>
+        <h2>Digital Transormation</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ab suscipit quod, eaque fugiat nostrum. Voluptas optio molestias error ad cupiditate, placeat praesentium qui quidem veniam. Velit, accusamus vero. Dolorum.</p>
+        <button type="button">Digital Plans</button>  
+    </section>
+    <section class="marketing">
+        <div class="marketing-img">
+            <img class="marketing-img" src="images/marketing.jpg" alt="laptop">
+        </div>
+        <h2>Marketing</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, ipsam tempore quasi fugit ipsa delectus nesciunt modi architecto vel ipsum error necessitatibus dolor est fuga aut, quisquam, sed repellendus?</p>
+        <button type="button">Marketing Plans</button> 
+    </section>
+    <section class="video">
+        <div class="video-img">
+            <img class="video" src="images/video.jpg" alt="video">
+        </div>
+        <h2>Video Production</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, ipsam tempore quasi fugit ipsa delectus nesciunt modi architecto vel ipsum error necessitatibus dolor est fuga aut, quisquam, sed repellendus?</p>
+        <button type="button">Video Plans</button> 
+    </section>
+    <section class="webdev">
+        <div class="webdev-img">
+                <img class="webdev" src="images/web.jpg" alt="web">
+        </div>
+        <h2>Web Development</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, ipsam tempore quasi fugit ipsa delectus nesciunt modi architecto vel ipsum error necessitatibus dolor est fuga aut, quisquam, sed repellendus?</p>
+        <button type="button">Web Plans </button> 
+    </section>
+    <section class="print">
+        <div class="print-img">
+            <img class="print" src="images/print.jpg" alt="print">
+        </div>
+        <h2>Print</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam, ipsam tempore quasi fugit ipsa delectus nesciunt modi architecto vel ipsum error necessitatibus dolor est fuga aut, quisquam, sed repellendus?</p>
+    <button type="button">Print plans</button> 
     </section>  
 <!---Creates Our Vision Banner seperation-->
     <div class="vision">
         <h3>Our Vision</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quis quisquam dicta laudantium eveniet voluptas blanditiis, at nisi ipsum eum beatae accusantium commodi placeat ad reprehenderit, voluptate provident in sapiente.</p>
-        <img class="vision.jpg" src="images/vision.jpg" alt="vision">
+        <img class="vision" src="images/vision.jpg" alt="vision">
         <button type="button">Learn More</button>
     </div>
 <!---Creates Our Team grid layout-->
     <section class="team">
         <h1>Our Team</h1>
         <div class="john">
-            <img class="john.jpg" src="images/john.jpg" alt="john">
+            <img class="john" src="images/john.jpg" alt="john">
             <h2>John Doe</h2>
             <h3>Ceo and Co-owner</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas officia eos accusantium rerum itaque ea. Quia, recusandae delectus beatae obcaecati necessitatibus sapiente ipsa autem, magnam voluptate provident, rerum vitae!</p>
         </div>
         <div class="bob-rite">
-            <img class="bob.jpg" src="images/bob.jpg" alt="bob">
+            <img class="bob" src="images/bob.jpg" alt="bob">
             <h1>Bob Rite</h1>
             <h3>CFo and Co-owner</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas officia eos accusantium rerum itaque ea. Quia, recusandae delectus beatae obcaecati necessitatibus sapiente ipsa autem, magnam voluptate provident, rerum vitae!</p>
