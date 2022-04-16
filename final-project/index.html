@@ -13,21 +13,21 @@
     <div class="container">
         <img class="logo.png" src="images/logo.png" alt="logo">
     </div>
-<!--- Creates top navigation bar-->
-    <div class="topnav">
+<!--- Creates top navigation bar as well as search bar element-->
+    <section class="topnav">
         <div class="nav-home-container"><a href="#home" class="nav-home">Home</a></div>
         <div class="nav-story-container"><a href="#aboutus" class="nav-aboutus">About Us</a></div>
         <div class="nav-contact-container"><a href="#services" class="nav-services">Services</a></div>
         <div class="nav-contact-container"><a href="#team" class="nav-team">Team</a></div>
         <div class="nav-contact-container"><a href="#contact" class="nav-contact">Contact</a></div>
-    </div>
-<!---Creates Search Bar Element-->
-    <div class="wrapper">
-        <input type="text" class="input" placeholder="Search">
-    </div>
-    <div class="searchbtn">
-        <i class="fa-solid fa-magnifying-glass"></i>
-    </div>
+    </section>
+    <section class="search-btn">
+        <div class="search">
+            <input type="text" class="input" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </section>
+    
 <!---Creates Welcome Home Page -->
     <div class="welcome">
         <h1>Welcome To Star Media</h1>
@@ -107,21 +107,21 @@
             <form>
                 <h1>Contact Us</h1>
                 <h2>Send us a message</h2>
-                    <div class="name">
-                        <label for="name">Full Name</label><br>
-                        <input type="text" id="name" name="name"><br>
-                    </div>
-                    <div class="email">
-                        <label for="email">Email</label><br>
-                        <input type="text" id="email" name="email"><br>
-                    </div>
-                    <div class="message">
-                        <label for="message">Message</label><br>
-                        <input type="text" id="message" name="message"><br>
-                    </div>
-                    <div>
-                        <button type="submit">Send</button>
-                    </div>
+                <div class="name">
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="name"><br>
+                </div>
+                <div class="email">
+                    <label for="email">Email</label><br>
+                    <input type="text" id="email" name="email"><br>
+                </div>
+                <div class="message">
+                     <label for="message">Message</label><br>
+                     <input type="text" id="message" name="message"><br>
+                </div>
+                <div>
+                     <button type="submit">Send</button>
+                 </div>
             </form>
         </div>
 <!--Creates HTML Map Embedding to set Star Media Location-->
