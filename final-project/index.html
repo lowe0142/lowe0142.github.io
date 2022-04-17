@@ -94,30 +94,32 @@
     <button type="button">Print plans</button> 
     </section>  
 <!---Creates Our Vision Banner seperation-->
-    <div class="vision">
-        <h3>Our Vision</h3>
+    <section class="vision">
+        <img class="vision-jpg" src="images/vision.jpg" alt="vision">
+        <h2 class="vision-title">Our Vision</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quis quisquam dicta laudantium eveniet voluptas blanditiis, at nisi ipsum eum beatae accusantium commodi placeat ad reprehenderit, voluptate provident in sapiente.</p>
-        <img class="vision" src="images/vision.jpg" alt="vision">
         <button type="button">Learn More</button>
-    </div>
+    </section>
 <!---Creates Our Team grid layout-->
+    <h1>Our Team</h1>
     <section class="team">
-        <h1>Our Team</h1>
         <div class="john">
-            <img class="john" src="images/john.jpg" alt="john">
+            <img class="john-img" src="images/john.jpg" alt="john">
             <h2>John Doe</h2>
             <h3>Ceo and Co-owner</h3>
+            <hr>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas officia eos accusantium rerum itaque ea. Quia, recusandae delectus beatae obcaecati necessitatibus sapiente ipsa autem, magnam voluptate provident, rerum vitae!</p>
         </div>
-        <div class="bob-rite">
-            <img class="bob" src="images/bob.jpg" alt="bob">
-            <h1>Bob Rite</h1>
+        <div class="bob">
+            <img class="bob-img" src="images/bob.jpg" alt="bob">
+            <h2>Bob Rite</h2>
             <h3>CFo and Co-owner</h3>
+            <hr>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptas officia eos accusantium rerum itaque ea. Quia, recusandae delectus beatae obcaecati necessitatibus sapiente ipsa autem, magnam voluptate provident, rerum vitae!</p>
         </div>
     </section> 
 <!--Creates Contact Sheet layout -->
-    <div class="contact">
+    <section class="contact">
             <form>
                 <h1>Contact Us</h1>
                 <h2>Send us a message</h2>
@@ -137,15 +139,10 @@
                      <button type="submit">Send</button>
                  </div>
             </form>
-        </div>
-<!--Creates HTML Map Embedding to set Star Media Location-->
-        <section class="location">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5607.914127774091!2d-75.75908885980583!3d45.3496789808319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1649075669089!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-    </div>
 <!--Creates hours of operation table -->
-    <div class="operation">
-        <h2>Hours of Operation</h2>
+    <h2>Hours of Operation</h2>
+    <div class="table">
         <table>
             <thead>
               <tr>
@@ -165,10 +162,16 @@
             </tbody>
           </table>
     </div>
+<!--Creates HTML Map Embedding to set Star Media Location-->
+    <h2>Location</h2>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5607.914127774091!2d-75.75908885980583!3d45.3496789808319!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1649075669089!5m2!1sen!2sca" width="1200" height="800" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+</div>
 <!--Creates Footer Section of Website-->
         <footer>
-            <p>&copy; Copyright Three Star Media, 2020</p>
-            <p>All images taken from <u>Unsplash</u></p>
+            <p class="fp">&copy; Copyright Three Star Media, 2020</p>
+            <p class="fp">All images taken from <u>Unsplash</u></p>
         </footer>
 </body>
 </html> 

@@ -12,10 +12,25 @@ p {
     padding-left: 20px;
 }
 
-h2 {
+h1 { 
     padding-left: 20px;
+    font-size: 80px;
 }
 
+h2 {
+    padding-left: 20px;
+    font-size: 50px;
+}
+
+h3 {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+hr {
+    max-width: 90%; margin-left: 20px;
+
+}
 /* Add Yellow Background over logo and black box for top Nav */
 .container {
     background-color: #c78c06;
@@ -24,6 +39,7 @@ h2 {
 }
 .background-img {
     background-color: #c78c06;
+
 }
 
 .topnav {
@@ -84,10 +100,9 @@ li {
     padding-top: 20px;
 }
 
-.digital, .services, .marketing-img, .marketing, .video, .webdev, .print {
+.digital, .services, .marketing-img, .marketing, .video, .webdev, .print, .team , .john-img , .bob-img{
     background-color: #ffe6ac; 
-    width: 1200px;
-    weight: 500px; 
+    width: 1200px; 
 }
 
 .about-title , .services-title { 
@@ -95,6 +110,28 @@ li {
     padding-left: 20px;
 }
 
+.vision-jpg {
+    width: 1200px;
+    height: 500px;
+    padding-top: 50px;
+}
 
+#name , #email {
+    width: 1200px;
+    height: 50px;
+}
 
- 
+#message {
+    width: 1200px;
+    height: 200px;
+}
+
+footer { 
+    background-color: #222;
+    padding-bottom: 10px;
+}
+
+.fp{
+    color: #c78c06;
+    padding-top: 20px;
+}
