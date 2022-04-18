@@ -29,8 +29,10 @@ h3 {
 
 hr {
     max-width: 90%; margin-left: 20px;
-
-}
+    border: 0px;
+    height: 3px;
+    background: #c78c06;
+    }
 
 .banner-img {
     width: 1200px;
@@ -80,12 +82,20 @@ li {
 
 .welcome { 
     color: white;
-    position: absolute;
     padding-left: 20px;
+    width: 1200px;
+    position: absolute;
+    top: 800px; 
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    width: 44.4%; /* Full width */
+    padding: 20px; /* Some padding */
 }
 
+.button1 {
+    background-color: green;
+}
 .welcome-title { 
-    font-size: 80px;
+    font-size: 125px;
 }
 
 button {
@@ -96,7 +106,17 @@ button {
     height: 150px;
     font-size: 30px;
 }
+.connect {
+    background-color: #c78c06;
+    color: #222;
+    width: 400px;
+}
 
+.learnmorebutton {
+    background: darkblue;
+    color: white;
+    border:#c78c06;
+}
 .p1 {
     font-size: 35px;
     padding-left: 20px;
@@ -124,7 +144,15 @@ button {
     padding-left: 20px;
 }
 
+.vision-title {
+    position: absolute;
+    color: white;
+    padding-left: 20px;
+    background: grey;
+    width: 1200px;
+}
 .vision-jpg {
+    position: relative; 
     width: 1200px;
     height: 500px;
     padding-top: 50px;
