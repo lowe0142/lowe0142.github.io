@@ -31,6 +31,11 @@ hr {
     max-width: 90%; margin-left: 20px;
 
 }
+
+.banner-img {
+    width: 1200px;
+}
+
 /* Add Yellow Background over logo and black box for top Nav */
 .container {
     background-color: #c78c06;
@@ -83,6 +88,15 @@ li {
     font-size: 80px;
 }
 
+button {
+    background-color: #222;
+    color: white;
+    border: none;
+    width: 300px;
+    height: 150px;
+    font-size: 30px;
+}
+
 .p1 {
     font-size: 35px;
     padding-left: 20px;
@@ -126,12 +140,49 @@ li {
     height: 200px;
 }
 
+table, th, td {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+    background-color: #ffe6ac;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+    background-color: #ffe6ac;
+  }
+  
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 35%;
+  }
+  
+  th, td {
+    padding: 30px;
+  }
+
+.location {
+    padding-top: 0;
+}
+
 footer { 
     background-color: #222;
     padding-bottom: 10px;
 }
 
-.fp{
+.fp1{
     color: #c78c06;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.fp2 {
+    color: #c78c06;
 }
