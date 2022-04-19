@@ -35,14 +35,13 @@ hr {
     }
 /*Small star logo banner image top left corner of Nav*/
 .banner-img {
-    width: 1200px;
+    width: 100%;
 }
 
 /* Add Yellow Background over logo and black box for top Nav */
 .container {
     background-color:  #c78c06;
-    width: 1000px;
-    height: 200px;
+    height: 75%;
 }
 .background-img {
     background-color: #c78c06;
@@ -52,13 +51,23 @@ hr {
     background-color: #222;
     padding: 15px;
 }
+.nav-home {
+    color: black;
+}
+.background-item {
+    background-color: #c78c06;
+    height: 50%;
+}
 /* Edit search button size as well as the search botton colour itself orange*/
 .search-btn {
     background-color: #222;
     text-align: center;
     font-size: 20px;
 }
-
+.input {
+    width: 75%;
+    height: 40px;
+}
 .nav-items, .nav-item-home {
     text-align: center;
     list-style: none;
@@ -79,20 +88,18 @@ li {
     margin-bottom: 0px;
 }
 /*Welcome To Star Media Title, make white and add transparent box background*/
+.main-banner {
+    position: relative;
+}
 .welcome { 
     color: white;
-    padding-left: 20px;
-    width: 1200px;
+    width: 100%;
     position: absolute;
-    top: 800px; 
+    top: 40px; 
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    width: 44.4%; /* Full width */
-    padding: 20px; /* Some padding */
 }
 /*Don't forget to try to float the button up higher behind the image banner*/
-.button1 {
-    background-color: green;
-}
+
 .welcome-title { 
     font-size: 125px;
 }
@@ -104,17 +111,31 @@ button {
     width: 300px;
     height: 150px;
     font-size: 30px;
+    margin-left: 20px;
 }
+
 .connect {
     background-color: #c78c06;
     color: #222;
     width: 400px;
+    margin-left: 20px;
+}
+i {
+    padding-left: 20px;
 }
 /*Add Orange background to the blue Learn More Button*/ 
 .learnmorebutton {
     background: darkblue;
-    border-color:#c78c06;
+    border: 2px solid #c78c06;
     color: white;
+}
+.sendbtn {
+    background-color:#222;
+    color: #c78c06;
+    height: 40px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 5px;
 }
 .p1 {
     font-size: 35px;
@@ -127,15 +148,15 @@ button {
 }
 
 .about-us {
-    width: 1150px;
-    height: 500px;
-    padding-left: 25px;
+    width: 95%;
+    padding-left: 30px;
     padding-top: 20px;
 }
 
 .digital, .services, .marketing-img, .marketing, .video, .webdev, .print, .team , .john-img , .bob-img{
     background-color: #ffe6ac; 
-    width: 1200px; 
+    width: 100%; 
+    padding-bottom: 40px;
 }
 
 .about-title , .services-title { 
@@ -144,19 +165,24 @@ button {
 }
 
 .vision-title {
-    position: absolute;
     color: white;
     padding-left: 20px;
-    background: grey;
-    width: 1200px;
+    width: 100%;
 }
+
 .vision-jpg {
-    position: relative; 
     width: 1200px;
     height: 500px;
     padding-top: 50px;
 }
-
+.vision {
+    position:relative
+}
+.vision-banner {
+    position: absolute;
+    top: 50px;
+    padding: 30px;
+}
 #name , #email {
     width: 1200px;
     height: 50px;
@@ -215,125 +241,143 @@ footer {
     color: #c78c06;
 }
 
-/*Section for Media Queries for Web Page mockup styling*/ 
-
+/*Section for Media Queries for Web Page mockup styling*
 
 
 /*Changes Important Title font sizes for the webpage mock up styling size*/
 @media screen and (min-width: 760px){
-h1 {
-    font-size: 50px;
-}
-
-@media screen and (min-width: 760px){
-h2 {
-    font-size: 40px;
-}
-
-@media screen and (min-width: 760px){
-h3 {
-    font-size: 20px;
-}
-
-/*Transforms bigger star logo into smaller logo for Web Page Mockup */ 
-@media screen and (min-width: 760px){
-    .logo {
-      display: 50px;
-}
-
-/*Creates smaller top navigation margin at the top of the screen*/
-@media screen and (min-width: 760px){
-    .topnav {
-    width: 1400px;
-    height: 100px;
-}
-
-@media screen and (min-width: 760px){
-.container {
-    background-color: #222;
-}
-
-@media screen and (min-width: 760px){
-    .nav-items, .nav-item-home {
-    padding-left: 0px;
-}
-
-@media screen and (min-width: 760px){
-a {
-  float: right;
-  color: #c78c06;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-@media screen and (min-width: 760px){
-.banner-img {
-    width: 1200px;
-    height: 800px;
-    padding-top: 100px;
-}
-@media screen and (min-width: 760px){
-.welcome { 
-    color: white;
-    position: absolute;
-    top: 500px; 
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    background-position: center;
-    width: 1000px; /* Width of transparent background behind title */
-}
-
-@media screen and (min-width: 760px){
-.welcome-title { 
-    font-size: 90px;
-    padding-left: none;
-}
-
-@media screen and (min-width: 760px){
-.connect {
-    position: absolute;
-}
-
-@media screen and (min-width: 760px){
-.about {
-    width: 1200px;
-    height: 400px;
-}
-
-@media screen and (min-width: 760px){
-.about-us {
-    float: left;
-    width: 500px;
-    height: 325px;
-    padding-left: 50px;
-}
-@media screen and (min-width: 760px){
-.about-title { 
-    display: flex;
-    padding-top: 25px;
-}
-
-@media screen and (min-width: 760px){
-.p2 , .p3 {
-    display: flex;
-}
-
-@media screen and (min-width: 760px){
-.john {
-    display: flex;
-}
-
-@media screen and (min-width: 760px){
-.bob { 
-    display: flex;
-}
-
-@media screen and (min-width: 760px){
-#name , #email {
-    width: 700px;
-    height: 50px;
-}
+    h1 {
+        font-size: 50px;
+    }
     
- #message {
-    width: 700px;
-    height: 200px;
+    @media screen and (min-width: 760px){
+    h2 {
+        font-size: 40px;
+    }
+    
+    @media screen and (min-width: 760px){
+    h3 {
+        font-size: 20px;
+    }
+    
+    /*Transforms bigger star logo into smaller logo for Web Page Mockup */ 
+    @media screen and (min-width: 760px){
+        .logo {
+          display: 50px;
+    }
+    
+    /*Creates smaller top navigation margin at the top of the screen*/
+    @media screen and (min-width: 760px){
+        .topnav {
+        width: 1200px;
+        height: 100px;
+    }
+    
+    @media screen and (min-width: 760px){
+    .container {
+        background-color: #222;
+    }
+    
+    @media screen and (min-width: 760px){
+    a {
+      float: right;
+      color: #c78c06;
+      text-decoration: none;
+      font-size: 20px;
+      padding-left: 100px;
+      padding-right: 60px;
+    }
+    @media screen and (min-width: 760px){
+     .nav-home { 
+        color: #c78c06;
+ }
+
+    @media screen and (min-width: 760px){   
+    .search-btn {
+        width: 300px;
+    }
+    
+    @media screen and (min-width: 760px){
+    .banner-img {
+        width: 1200px;
+        height: 800px;
+        padding-top: 100px;
+    }
+    @media screen and (min-width: 760px){
+    .welcome { 
+        color: white;
+        position: absolute;
+        top: 200px; 
+        background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+        background-position: center;
+        width: 100%; /* Width of transparent background behind title */
+    }
+    @media screen and (min-width: 760px){
+    .welcome-title { 
+        font-size: 90px;
+        padding-left: none;
+    }
+    
+    @media screen and (min-width: 760px){
+    .connect {
+        position: absolute;
+    }
+    
+    @media screen and (min-width: 760px){
+    .about {
+        width: 1200px;
+        height: 400px;
+    }
+    
+    @media screen and (min-width: 760px){
+    .about-us {
+        float: left;
+        width: 500px;
+        height: 325px;
+        padding-left: 50px;
+    }
+    @media screen and (min-width: 760px){
+    .about-title { 
+        display: flex;
+        padding-top: 25px;
+    }
+    
+    @media screen and (min-width: 760px){
+    .p2 , .p3 {
+        display: flex;
+    }
+    
+    @media screen and (min-width: 760px){
+    .john {
+        display: flex;
+    }
+    
+    @media screen and (min-width: 760px){
+    .bob { 
+        display: flex;
+    }
+    
+    @media screen and (min-width: 760px){
+    #name , #email {
+        width: 700px;
+        height: 50px;
+    }
+    @media screen and (min-width: 760px){  
+     #message {
+        width: 700px;
+        height: 200px;
+    }
+    
+    @media screen and (min-width: 760px){
+    .grid1 { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: (2, 1fr) ;
+    }
 }
+@media screen and (min-width: 760px){
+    .grid2 { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: (3, 1fr) ;
+    }
